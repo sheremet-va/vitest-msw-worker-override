@@ -1,0 +1,23 @@
+{
+  "name": "msw-iframes",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "vitest init browser",
+    "test:browser": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/browser": "^2.1.2",
+    "msw": "^2.4.9",
+    "playwright": "^1.47.2",
+    "vitest": "^2.1.2"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
